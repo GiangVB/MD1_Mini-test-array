@@ -10,10 +10,10 @@ function checkPrime(n) {
 }
 
 let numbers = [11, 1, 1, 5, 92, 12, 10];
-let total = 0
+let total = 0;
 for (let i = 0; i < numbers.length; i++){
     if (checkPrime(numbers[i])){
-        total += numbers[i]
+        total += numbers[i];
     }
 }
-alert("Tổng của các số nguyên tố trong mảng là " + total)
+alert("Tổng của các số nguyên tố trong mảng là " + total);

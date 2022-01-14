@@ -9,10 +9,10 @@ function checkPrime(n) {
     return check;
 }
 
-let total = 0
+let total = 0;
 for (let i=2; i<500; i++){
     if (checkPrime(i)){
-        total += i
+        total += i;
     }
 }
-alert("Tổng của các số nguyên tố nhỏ hơn 500 là " + total)
+alert("Tổng của các số nguyên tố nhỏ hơn 500 là " + total);
